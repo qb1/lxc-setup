@@ -1,0 +1,12 @@
+PULSE_SERVER=10.0.8.1
+HOME=/home/qbi
+LANG=en_US.UTF-8
+LOGNAME=qbi
+MAIL=/var/mail/qbi
+PATH=/home/qbi/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+PWD=/home/qbi
+SHELL=/usr/bin/fish
+SHLVL=1
+USER=qbi
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_SESSION_ID=c4

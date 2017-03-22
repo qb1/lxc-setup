@@ -1,0 +1,13 @@
+[Unit]
+Description=xpra display
+
+[Service]
+Type=simple
+User=qbi
+EnvironmentFile=/etc/conf.d/xpra
+ExecStart=/usr/bin/xpra --no-daemon start :10 --bind-tcp=0.0.0.0:10000 --no-pulseaudio --start-new-commands 'yes' --mmap --encoding=rgb
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+Alias=xpra.service
